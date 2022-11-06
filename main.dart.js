@@ -67609,7 +67609,7 @@ else{m=$.BU().h(0,q)
 m=m==null?k:m.b
 if(m==null)m=""
 m=A.bx(m,new A.et(),1,k,k,B.r.cT(16,B.M,1.5).JW(B.i,B.M),k,k)}l=t.p
-return A.eo(A.hp(k,A.iH(B.bf,A.a([A.dn(k,new A.bu(B.n6,A.cM(A.a([o,B.b9,n,B.aS,A.tq(m,new A.aJ(3e5),B.c3,B.e0,new A.U8())],l),B.as,B.w,B.z),k),B.n,k,B.xQ,new A.cW(k,new A.Dg(new A.m5("projects/"+q.b+"/cover.png"),B.xY),k,p,k,k,B.aj),k,r,k,k,k,k,k)],l),B.S,B.aN),B.Z,!1,k,k,k,k,k,k,k,k,k,k,new A.U9(),k,k,k,k,k,k),B.al,new A.Ua(s),new A.Ub(s),k)},
+return A.eo(A.hp(k,A.iH(B.bf,A.a([A.dn(k,new A.bu(B.n6,A.cM(A.a([o,B.b9,n,B.aS,A.tq(m,new A.aJ(3e5),B.c3,B.e0,new A.U8())],l),B.as,B.w,B.z),k),B.n,k,B.xQ,new A.cW(k,new A.Dg(new A.m5("assets/"+("projects/"+q.b)+"/cover.png"),B.xY),k,p,k,k,B.aj),k,r,k,k,k,k,k)],l),B.S,B.aN),B.Z,!1,k,k,k,k,k,k,k,k,k,k,new A.U9(),k,k,k,k,k,k),B.al,new A.Ua(s),new A.Ub(s),k)},
 a0R(a,b){var s=null,r=A.a03(a,!0),q=A.a([],t.Zt),p=$.ah,o=t.N0,n=t.SJ,m=A.wA(B.c1),l=A.a([],t.wi),k=$.aA(),j=$.ah
 return r.kb(new A.wF(new A.U4(b),!1,s,B.zl,new A.aJ(4e5),new A.U5(),s,s,q,new A.bm(s,t.mw),new A.bm(s,t.A),new A.FL(),s,0,new A.be(new A.aq(p,o),n),m,l,B.vL,new A.br(s,k,t.XR),new A.be(new A.aq(j,o),n),t.gR),t.JX)}}
 A.Ua.prototype={
@@ -67718,7 +67718,7 @@ return A.akM(null,new A.a1g(this.a),s,!0)},
 $S:151}
 A.a1g.prototype={
 $2(a,b){var s=this.a.c.b
-return A.aku(new A.m5("assets/assets/projects/"+s+"/"+s+"_"+A.i(b)+".png"))},
+return A.aku(new A.m5("assets/projects/"+s+"/"+s+"_"+A.i(b)+".png"))},
 $S:152}
 A.Gx.prototype={
 F(a){return new A.fE(new A.a17(this),null)}}
