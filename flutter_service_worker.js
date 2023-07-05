@@ -2,65 +2,100 @@
 const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
-const RESOURCES = {
-  "assets/AssetManifest.json": "262b819c5d2b61bfda6b8003f391f44c",
+
+const RESOURCES = {"assets/AssetManifest.json": "7c153a2dd2d7b63ceb100bdcc2305a3c",
+"assets/AssetManifest.smcbin": "7141a0a0410eae497a907e3700258070",
 "assets/assets/fonts/Codec%2520Pro%2520Bold.ttf": "9ca00d77d0b18098a2f261a4ed04e8d6",
 "assets/assets/fonts/Codec%2520Pro%2520News.ttf": "66d306d782472256abb2059f9594f1fb",
-"assets/assets/projects/crackd/cover.png": "12ec17ad83826c1e295dec677cd1e02e",
-"assets/assets/projects/crackd/crackd_0.png": "bf44b66e1e6d86a647b2d815a53c2e0b",
-"assets/assets/projects/crackd/crackd_1.png": "12ec17ad83826c1e295dec677cd1e02e",
-"assets/assets/projects/crackd/crackd_2.png": "a28d282017b96e90ae12a10cc993174e",
-"assets/assets/projects/crackd/crackd_3.png": "0782df118657e272562fe5ac569ed5d6",
-"assets/assets/projects/crackd/crackd_4.png": "05bb260973f1302cf52a8be3a6d338cc",
-"assets/assets/projects/crackd/crackd_5.png": "a72212e21c7e83ed0a7052ad50f6f07f",
-"assets/assets/projects/githubOAuth/cover.png": "64ef6be084b759ed0d83070f08dd564a",
-"assets/assets/projects/githubOAuth/githuboauth_0.png": "afe37da9d8987db1a8317c956cb1e832",
-"assets/assets/projects/githubOAuth/githuboauth_1.png": "c98540abca758960afe022b600fbbb7a",
-"assets/assets/projects/githubOAuth/githuboauth_2.png": "e478aeed71fa8de06304febb7b50aab1",
-"assets/assets/projects/githubOAuth/githuboauth_3.png": "872b25f9a0af265a98bc8f13226fb2cb",
-"assets/assets/projects/githubOAuth/githuboauth_4.png": "d1e001ea9a19eef6c552d9ebef56197a",
-"assets/assets/projects/githubOAuth/githuboauth_5.png": "4b15ae9bd9caad9f37c19ebdd146896b",
-"assets/assets/projects/githubOAuth/githuboauth_6.png": "60f095d304aff594ae3efef69c893a5d",
-"assets/assets/projects/githubOAuth/githuboauth_7.png": "336816d009e8b77afc5d4953635ecb56",
-"assets/assets/projects/inky/cover.png": "460e52792d93cbac5cdce0bc8f7bd5d2",
+"assets/assets/fonts/RilenoSans-Medium.otf": "d4e7a14ff3c1f51649e2a87aec835781",
+"assets/assets/fonts/RilenoSans-Regular.otf": "16cd4b5d84e504ba805c089b524c8682",
+"assets/assets/fonts/RilenoSans-SemiBold.otf": "8d0d2d7c84b5e6c7fb1a2f1284cc6597",
+"assets/assets/header.png": "b75dae50a5f29b7665bf60e075af1b3c",
+"assets/assets/logo.svg": "de85db9cb9b27d3af6b129172a50e6ae",
+"assets/assets/logoFooter.svg": "3c3873a7516d0c6874f09b2001b84fbc",
+"assets/assets/projects/crack'd/cover.png": "36e85a1c65925592b325b6fb0e25ce46",
+"assets/assets/projects/crack'd/crack'd_0.png": "9943cacdade2b8b76f619a4e8f4e22c3",
+"assets/assets/projects/crack'd/crack'd_1.png": "c166d22cefffc849b2939691aa96e8ff",
+"assets/assets/projects/crack'd/crack'd_2.png": "5a5e3829b873585ddf7e7721bc19812b",
+"assets/assets/projects/crack'd/crack'd_3.png": "89879ebfa42b1394836f28d3cecb269d",
+"assets/assets/projects/crack'd/crack'd_4.png": "878f2af1188da491bbc6503482a9a3f1",
+"assets/assets/projects/flutterweb/cover.png": "1e3b1df61c7108a221ee9623a9e293ce",
+"assets/assets/projects/flutterweb/flutterweb_0.png": "4c5c4396560775fb809b19304bdf63db",
+"assets/assets/projects/flutterweb/flutterweb_1.png": "95677492c20e4e7535bf8c0f6828de08",
+"assets/assets/projects/flutterweb/flutterweb_2.png": "8d4d27215ab9a52107e30662da31aa35",
+"assets/assets/projects/flutterweb/flutterweb_3.png": "202e6baca994f90e1aead431cddd5c9f",
+"assets/assets/projects/flutterweb/flutterweb_4.png": "2e376f6787ec4b7cfa7170ab4fdb52e7",
+"assets/assets/projects/flutterweb/flutterweb_5.png": "666ec7b36376c98d91bc3c20bb3a11be",
+"assets/assets/projects/glum/cover.png": "caf8f617f3e2b9e9c0ec29ccd597c598",
+"assets/assets/projects/glum/glum_0.png": "a7b2f4dc5f19e5a0a036e4942080bc82",
+"assets/assets/projects/glum/glum_1.png": "b270c19ef91b0023cf9132c9312fb90f",
+"assets/assets/projects/glum/glum_2.png": "8afea8a88e57141bf23b0116822fd782",
+"assets/assets/projects/glum/glum_3.png": "cc7b6ccf91f158f151f0e326b37f99a1",
+"assets/assets/projects/glum/glum_4.png": "dc5b49d501311cf0983f21f6edd701d7",
+"assets/assets/projects/glum/glum_5.png": "44df1c8694657b4d43a2961c94ec4b38",
+"assets/assets/projects/glum/glum_6.png": "15ecf45d912c2e9f598cebcf39756b3e",
+"assets/assets/projects/glum/glum_7.png": "5d383da51310f8088590a5b197dc1991",
+"assets/assets/projects/inky/cover.png": "bb15d060a0ace0bf2e622d4327e71e4b",
 "assets/assets/projects/inky/inky_0.png": "460e52792d93cbac5cdce0bc8f7bd5d2",
 "assets/assets/projects/inky/inky_1.png": "e99a7c679b0bcd0638a55f934cb32fcb",
 "assets/assets/projects/inky/inky_2.png": "a48c46c4252f4df5dd30c15b915ba895",
 "assets/assets/projects/inky/inky_3.png": "e8f20ad206e55cea9fb2322b4a21831c",
 "assets/assets/projects/inky/inky_4.png": "e23a5f9b1c3b949b2aa34259750cc440",
-"assets/assets/projects/projects.json": "a33a3d8cfad7e07698a740a9d99d9d37",
-"assets/FontManifest.json": "01e5372105e19d379ab924c28067672d",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "9029a308b6581dffe6364cef62a056cd",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "4e20cb87b0d43808c49449ffd69b1a74",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "1f7cb220b3f5309130bd6d9ad87e0fc0",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "26f5af2d93473531f82ef5060f9c6d45",
-"assets/shaders/ink_sparkle.frag": "2ad5fabd6a36a6deff087b8edfd0c1f8",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
-"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
-"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"assets/assets/projects/oauth2.0/cover.png": "6934b1a45330075d4e45cdb8cab2ec7d",
+"assets/assets/projects/oauth2.0/oauth2.0_0.png": "afe37da9d8987db1a8317c956cb1e832",
+"assets/assets/projects/oauth2.0/oauth2.0_1.png": "c98540abca758960afe022b600fbbb7a",
+"assets/assets/projects/oauth2.0/oauth2.0_2.png": "e478aeed71fa8de06304febb7b50aab1",
+"assets/assets/projects/oauth2.0/oauth2.0_3.png": "872b25f9a0af265a98bc8f13226fb2cb",
+"assets/assets/projects/oauth2.0/oauth2.0_4.png": "d1e001ea9a19eef6c552d9ebef56197a",
+"assets/assets/projects/oauth2.0/oauth2.0_5.png": "4b15ae9bd9caad9f37c19ebdd146896b",
+"assets/assets/projects/oauth2.0/oauth2.0_6.png": "60f095d304aff594ae3efef69c893a5d",
+"assets/assets/projects/oauth2.0/oauth2.0_7.png": "336816d009e8b77afc5d4953635ecb56",
+"assets/assets/projects/projects.json": "469c805f5d4193a1a8166de3877fe04c",
+"assets/assets/projects/ricedrop/cover.png": "8a79077dd616f52e657b2922bb35eb71",
+"assets/assets/projects/ricedrop/ricedrop_0.png": "60e2b9bc20093def4e734dcffdffddd5",
+"assets/assets/projects/ricedrop/ricedrop_1.png": "67577903b35290a9b5e92bab083e1a77",
+"assets/assets/projects/ricedrop/ricedrop_10.png": "1d92b45d9ac46a45935c7f105ba4aa87",
+"assets/assets/projects/ricedrop/ricedrop_2.png": "67e52a75be38846dd2ae0b99925a64a9",
+"assets/assets/projects/ricedrop/ricedrop_3.png": "30762b26a1af41bfc77c98b5ac607139",
+"assets/assets/projects/ricedrop/ricedrop_4.png": "5e8de06cc498a6fa3cf6bf921e2d359c",
+"assets/assets/projects/ricedrop/ricedrop_5.png": "06c72f4bcc8a93bfcbbf474170b1f4c4",
+"assets/assets/projects/ricedrop/ricedrop_6.png": "87b82162daa00fdc6ea312da819df766",
+"assets/assets/projects/ricedrop/ricedrop_7.png": "7e3581355a5a9f14fe7239a5f2649bc8",
+"assets/assets/projects/ricedrop/ricedrop_8.png": "5568b23ebee592f5b670191ab5e5de32",
+"assets/assets/projects/ricedrop/ricedrop_9.png": "2cfebf139fb6e8fd9495ccab7a7c3b14",
+"assets/FontManifest.json": "b952c3c43ef352bdec936e869231cb43",
+"assets/fonts/MaterialIcons-Regular.otf": "b7feb26f3a968e1ec44f963d9110ed1b",
+"assets/NOTICES": "a06d88621b67ef91ac2c24db3e0a4f01",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d7791ef376c159f302b8ad90a748d2ab",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5070443340d1d8cceb516d02c3d6dee7",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "658b490c9da97710b01bd0f8825fce94",
+"assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
+"canvaskit/canvaskit.js": "59ed8478b398a8966eee147930f3d966",
+"canvaskit/canvaskit.wasm": "641ba6d615314c42874bf914ef2d093e",
+"canvaskit/chromium/canvaskit.js": "853c6cebea386c05aa9d954f11b2c1ca",
+"canvaskit/chromium/canvaskit.wasm": "ffc522e9ff0a7bbe6bfd2a6f54f974e4",
+"canvaskit/skwasm.js": "95f16c6690f955a45b2317496983dbe9",
+"canvaskit/skwasm.wasm": "0d7c2e198fc5420d3940de2d44c19023",
+"canvaskit/skwasm.worker.js": "51253d3321b11ddb8d73fa8aa87d3b15",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter.js": "8ae00b472ec3937a5bee52055d6bc8b4",
+"flutter.js": "6b515e434cea20006b3ef1726d2c8894",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "5c4b5b79671b5ee7bb47ffd59e309962",
-"/": "5c4b5b79671b5ee7bb47ffd59e309962",
-"main.dart.js": "dfb2f81c44feb789e3c40e923d1a0165",
+"index.html": "3e7463ad6c49e9e959bb53208b77add1",
+"/": "3e7463ad6c49e9e959bb53208b77add1",
+"main.dart.js": "0b1295757cef27b6608da5b377598d55",
 "manifest.json": "0a7c4d8657764b9b9a07b80adc5c0f85",
-"version.json": "5b147a10ee09ed9c2c11bf5e15c57c52"
-};
-
+"version.json": "5b147a10ee09ed9c2c11bf5e15c57c52"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = [
-  "main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
+
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -71,7 +106,6 @@ self.addEventListener("install", (event) => {
     })
   );
 });
-
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
@@ -93,6 +127,8 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+        // Claim client to enable caching on first launch
+        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -118,6 +154,8 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+      // Claim client to enable caching on first launch
+      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
@@ -128,7 +166,6 @@ self.addEventListener("activate", function(event) {
     }
   }());
 });
-
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
@@ -168,7 +205,6 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
-
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
@@ -181,7 +217,6 @@ self.addEventListener('message', (event) => {
     return;
   }
 });
-
 // Download offline will check the RESOURCES for all files not in the cache
 // and populate them.
 async function downloadOffline() {
@@ -202,7 +237,6 @@ async function downloadOffline() {
   }
   return contentCache.addAll(resources);
 }
-
 // Attempt to download the resource online before falling back to
 // the offline cache.
 function onlineFirst(event) {
