@@ -80905,7 +80905,7 @@ e=J
 d=t.a
 c=B.ce
 s=3
-return A.a4($.wA().U2("projects/projects.json"),$async$pv)
+return A.a4($.wA().U2("assets/projects/projects.json"),$async$pv)
 case 3:o=e.a_i(d.a(c.eF(0,b))),o=o.gaa(o)
 case 4:if(!o.q()){s=5
 break}n=o.gH(o)
@@ -80932,7 +80932,7 @@ return A.V($async$pv,r)},
 Ah(a){return this.WY(a)},
 WY(a){var s=0,r=A.W(t.N),q
 var $async$Ah=A.X(function(b,c){if(b===1)return A.T(c,r)
-while(true)switch(s){case 0:q="projects/"+A.ays(a)+"/cover.png"
+while(true)switch(s){case 0:q="assets/projects/"+A.ays(a)+"/cover.png"
 s=1
 break
 case 1:return A.U(q,r)}})
@@ -80954,7 +80954,7 @@ A.aaC.prototype={
 $1(a){return J.d(B.b.gN(a.I().split(".")),this.a.a)},
 $S:480}
 A.aaD.prototype={
-$1(a){return B.d.t(a,"projects/"+A.ays(this.a)+"/")},
+$1(a){return B.d.t(a,"assets/projects/"+A.ays(this.a)+"/")},
 $S:30}
 A.o0.prototype={
 tN(a){return this.ak9(a)},
