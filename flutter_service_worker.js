@@ -47,7 +47,7 @@ const RESOURCES = {"assets/AssetManifest.json": "61a41d6433db824da4ead90c5d33ba4
 "assets/assets/projects/oauth2.0/oauth2.0_5.png": "4b15ae9bd9caad9f37c19ebdd146896b",
 "assets/assets/projects/oauth2.0/oauth2.0_6.png": "60f095d304aff594ae3efef69c893a5d",
 "assets/assets/projects/oauth2.0/oauth2.0_7.png": "336816d009e8b77afc5d4953635ecb56",
-"assets/assets/projects/projects.json": "469c805f5d4193a1a8166de3877fe04c",
+"assets/assets/projects/projects.json": "683b213b4d156dcd4f244b0f52fc21c6",
 "assets/assets/projects/ricedrop/cover.png": "8a79077dd616f52e657b2922bb35eb71",
 "assets/assets/projects/ricedrop/ricedrop_0.png": "60e2b9bc20093def4e734dcffdffddd5",
 "assets/assets/projects/ricedrop/ricedrop_1.png": "67577903b35290a9b5e92bab083e1a77",
@@ -81,9 +81,9 @@ const RESOURCES = {"assets/AssetManifest.json": "61a41d6433db824da4ead90c5d33ba4
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "8cc6c9ef0d7632a3912d5114fe7a46a8",
-"/": "8cc6c9ef0d7632a3912d5114fe7a46a8",
-"main.dart.js": "ebfc38a4c0313bd2342d053ab4e2448a",
+"index.html": "4dfa2f7da006e1d72d98e7362729e5a1",
+"/": "4dfa2f7da006e1d72d98e7362729e5a1",
+"main.dart.js": "60ba748dd92524982dd17307abc3cf25",
 "manifest.json": "0a7c4d8657764b9b9a07b80adc5c0f85",
 "version.json": "5b147a10ee09ed9c2c11bf5e15c57c52"};
 // The application shell files that are downloaded before a service worker can
